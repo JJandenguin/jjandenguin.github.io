@@ -29,27 +29,6 @@ header h2 {
     margin-top: 10px;
 }
 
-/* Navigation Bar Styling */
-nav {
-    background-color: #444;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1rem;
-    margin: 0 10px;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-nav a:hover {
-    background-color: #666;
-}
-
 /* Main Content Area */
 main {
     max-width: 900px;
@@ -103,10 +82,5 @@ footer p {
 
     header h2 {
         font-size: 1.2rem;
-    }
-
-    nav a {
-        font-size: 0.9rem;
-        padding: 8px 12px;
     }
 }
