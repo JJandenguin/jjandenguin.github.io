@@ -20,10 +20,18 @@ header {
   margin-bottom: 30px;
 }
 
-.gpd-header {
-  font-size: 2.2rem;
+.gpd-header-main {
+  font-size: 2.5rem; /* main title size */
+  text-align: center;
   color: #2b2d42;
   margin-bottom: 10px;
+}
+
+.gpd-header-sub {
+  font-size: 1.8rem; /* slightly smaller */
+  text-align: center;
+  color: #1a73e8;
+  margin-top: 0;
 }
 
 /* Section Titles */
