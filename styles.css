@@ -61,6 +61,7 @@ main {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
+
 /* Last updated footer */
 .last-updated {
   margin-top: 40px;
@@ -68,4 +69,39 @@ main {
   color: #555;
   font-size: 0.9rem;
 }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  main {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+
+  .gpd-header-main {
+    color: #ffffff;
+  }
+
+  .gpd-header-sub {
+    color: #90caf9;
+  }
+
+  .gpd-text h2 {
+    color: #90caf9;
+    border-left-color: #90caf9;
+  }
+
+  .gpd-text p {
+    color: #e0e0e0;
+  }
+
+  .last-updated {
+    color: #aaa;
+  }
+}
+
 
